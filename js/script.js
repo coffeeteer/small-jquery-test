@@ -1,3 +1,4 @@
+console.log('page loads');
 $('#submission').on('submit', function(e) {
         console.log('Submit fires');
         e.preventDefault();
